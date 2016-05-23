@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block content%}
+<div class="blog"><!-- start main -->
+	<div class="container">
+		<div class="main row">
+			<h2 class="style">{{ object.title }}</h2>
+			<div class="details row">
+				<!--<div class="col-md-6">
+					<img src="web/images/det_pic.jpg" alt="" class="img-responsive"/>
+				</div>-->
+				<div class="col-md-6">
+					<p class="para">
+						{{ object.body}}
+					</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="read_more"><a href="{{object.source_code}}">Source Code</a></div>
+		</div>
+	</div>
+</div><!-- end main -->
+</div>
+{% endblock %}

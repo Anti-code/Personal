@@ -1,0 +1,24 @@
+.SearchIcon
+{
+    color:#fff;
+   
+}
+.SearchButton
+{
+    background-color:#2EB398;
+    border-radius:1px;
+}
+.SearchButton:hover{
+    background-color:#2EB398;
+}
+
+.SearchBar{
+
+}
+.btn{
+	background-color: #2EB398;
+	color: #fff;
+}
+.search-group{
+	width: 92%;
+}
